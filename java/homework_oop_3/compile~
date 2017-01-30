@@ -1,0 +1,2 @@
+javac -d classes -s src src/Main.java src/shapes/Circle.java src/shapes/Rectangle.java src/shapes/Shape.java
+

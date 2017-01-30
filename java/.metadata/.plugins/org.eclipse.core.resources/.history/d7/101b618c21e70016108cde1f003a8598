@@ -1,0 +1,10 @@
+package food;
+
+public class Sandwich extends Food {
+	private double lettuce;
+	private double tomatoes;
+	private double meat;
+	private double bread;
+	private double calories;
+	
+}

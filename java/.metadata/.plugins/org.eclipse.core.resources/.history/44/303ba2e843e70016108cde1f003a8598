@@ -1,0 +1,12 @@
+package food;
+
+public class Spaghetti extends Food {
+	private double _pasta;
+	private double _sauce;
+	private double _meat;
+	private double _cheese;
+	private boolean _cached = false;
+	private double _calories = Double.NaN;
+	
+
+}
