@@ -1,0 +1,18 @@
+/*
+ * RobotController.cpp
+ *
+ *  Created on: May 2, 2017
+ *      Author: joshua
+ */
+
+#include "RobotController.h"
+
+RobotController::RobotController() {
+	// TODO Auto-generated constructor stub
+
+}
+
+RobotController::~RobotController() {
+	// TODO Auto-generated destructor stub
+}
+

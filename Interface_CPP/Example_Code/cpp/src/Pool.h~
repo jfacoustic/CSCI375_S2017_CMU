@@ -1,0 +1,15 @@
+#pragma once
+
+#include <memory>
+#include "Poolable.h"
+
+namespace pools {
+  
+  class Poolable;
+  
+  class Pool {
+
+    std::vector < std::shared_ptr<Poolable> > pooled;
+    void add(
+  };
+}

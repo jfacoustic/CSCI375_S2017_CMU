@@ -1,0 +1,45 @@
+!SESSION 2017-05-01 10:57:45.309 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.cdt.core.native 4 0 2017-05-01 10:58:28.444
+!MESSAGE no spawner in java.library.path
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-05-01 10:58:29.356
+!MESSAGE Indexed 'Text_Game_Engine' (0 sources, 0 headers) in 0.006 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2017-05-01 12:22:41.043 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-05-01 12:22:45.326
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.cdt.core.native 4 0 2017-05-01 12:38:12.312
+!MESSAGE no spawner in java.library.path
+!SESSION 2017-05-02 12:49:04.701 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.cdt.core.native 4 0 2017-05-02 13:09:38.629
+!MESSAGE no spawner in java.library.path
+!SESSION 2017-05-03 15:14:30.507 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-05-03 15:14:37.140
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.cdt.core.native 4 0 2017-05-03 15:25:18.899
+!MESSAGE no spawner in java.library.path

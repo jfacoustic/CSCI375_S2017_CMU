@@ -1,0 +1,17 @@
+/*
+ * UserController.h
+ *
+ *  Created on: May 2, 2017
+ *      Author: joshua
+ */
+
+#ifndef USERCONTROLLER_H_
+#define USERCONTROLLER_H_
+
+class UserController {
+public:
+	UserController();
+	virtual ~UserController();
+};
+
+#endif /* USERCONTROLLER_H_ */

@@ -1,0 +1,19 @@
+/*
+ * UserController.cpp
+ *
+ *  Created on: May 2, 2017
+ *      Author: joshua
+ */
+
+#include "UserController.h"
+
+UserController::UserController() {
+	// TODO Auto-generated constructor stub
+	int _choice = NULL;
+}
+
+UserController::~UserController() {
+	// TODO Auto-generated destructor stub
+
+}
+

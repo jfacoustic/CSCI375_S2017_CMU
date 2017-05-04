@@ -1,0 +1,62 @@
+20:37:29 **** Incremental Build of configuration Debug for project Boolean_Example_GOF ****
+make all 
+Building file: ../AndExp.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"AndExp.d" -MT"AndExp.d" -o "AndExp.o" "../AndExp.cpp"
+Finished building: ../AndExp.cpp
+ 
+Building file: ../BooleanExp.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"BooleanExp.d" -MT"BooleanExp.d" -o "BooleanExp.o" "../BooleanExp.cpp"
+Finished building: ../BooleanExp.cpp
+ 
+Building file: ../Constant.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Constant.d" -MT"Constant.d" -o "Constant.o" "../Constant.cpp"
+Finished building: ../Constant.cpp
+ 
+Building file: ../Context.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Context.d" -MT"Context.d" -o "Context.o" "../Context.cpp"
+Finished building: ../Context.cpp
+ 
+Building file: ../NotExp.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"NotExp.d" -MT"NotExp.d" -o "NotExp.o" "../NotExp.cpp"
+Finished building: ../NotExp.cpp
+ 
+Building file: ../OrExp.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"OrExp.d" -MT"OrExp.d" -o "OrExp.o" "../OrExp.cpp"
+Finished building: ../OrExp.cpp
+ 
+Building file: ../VariableExp.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"VariableExp.d" -MT"VariableExp.d" -o "VariableExp.o" "../VariableExp.cpp"
+Finished building: ../VariableExp.cpp
+ 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Boolean_Example_GOF
+Invoking: Cross G++ Linker
+g++  -o "Boolean_Example_GOF"  ./AndExp.o ./BooleanExp.o ./Constant.o ./Context.o ./NotExp.o ./OrExp.o ./VariableExp.o ./main.o   
+Finished building target: Boolean_Example_GOF
+ 
+20:37:33 **** Incremental Build of configuration Debug for project Boolean_Example_GOF ****
+make all 
+make: Nothing to be done for 'all'.
+09:48:23 **** Build of configuration Debug for project Boolean_Example_GOF ****
+make all 
+Building file: ../main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Boolean_Example_GOF
+Invoking: Cross G++ Linker
+g++  -o "Boolean_Example_GOF"  ./AndExp.o ./BooleanExp.o ./Constant.o ./Context.o ./NotExp.o ./OrExp.o ./VariableExp.o ./main.o   
+Finished building target: Boolean_Example_GOF
+ 

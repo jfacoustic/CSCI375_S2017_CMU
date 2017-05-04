@@ -1,0 +1,30 @@
+/*
+ * main.cpp
+ *
+ *  Created on: May 1, 2017
+ *      Author: joshua
+ */
+#include <iostream>
+#include <cstdlib>
+#include <time.h>
+#include "Reader.h"
+#include "Game.h"
+#include "Controller.h"
+#include "UserController.h"
+#include "RobotController.h"
+
+using namespace std;
+
+int main() {
+	bool Robot = 0; //0 for user 1 for robot
+	cin >> Robot;
+	Reader * reader = new Reader("../test_game");
+	srand(time(NULL));
+	UserController * userControl = new UserController();
+	RobotController * robotControl = new RobotController();
+	Game * userGame = new Game(reader, userControl);
+	Game * robotGame = new Game(reader, robotControl);
+	if(Robot) robotGame->run();
+	else userGame->run();
+	return 0;
+}

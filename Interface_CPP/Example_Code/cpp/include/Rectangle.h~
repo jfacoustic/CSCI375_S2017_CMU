@@ -1,0 +1,35 @@
+#pragma once
+
+#include "Shape.h"
+#include "Colorable.h"
+
+namespace shapes
+{
+  class Rectangle : public Shape, public Colorable {
+  private: double _width;
+  private: double _height;
+  private: double _area;
+
+  private: Color _color;
+  public: Color getColor() const { return _color; }
+  public: void setColor(const Color &value) { _color=value; }
+
+    // double width = 3;
+    // double height = 5;
+    // Rectangle *rect = new Rectangle(width,height); 
+
+  public: Rectangle(const double &width, 
+		    const double &height);
+
+  public: double getWidth() const;
+  public: void setWidth(const double &value);
+
+  public: double getHeight() const;
+  public: void setHeight(const double &value);
+
+  public: double getArea() const;
+
+  private: void updateArea();
+
+  };
+}

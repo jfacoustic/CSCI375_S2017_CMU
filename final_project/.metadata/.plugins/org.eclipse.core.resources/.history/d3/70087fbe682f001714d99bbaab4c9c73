@@ -1,0 +1,17 @@
+/*
+ * RobotController.h
+ *
+ *  Created on: May 2, 2017
+ *      Author: joshua
+ */
+
+#ifndef ROBOTCONTROLLER_H_
+#define ROBOTCONTROLLER_H_
+
+class RobotController {
+public:
+	RobotController();
+	virtual ~RobotController();
+};
+
+#endif /* ROBOTCONTROLLER_H_ */

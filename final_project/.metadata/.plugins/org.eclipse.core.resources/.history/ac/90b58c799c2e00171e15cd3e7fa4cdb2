@@ -1,0 +1,25 @@
+/*
+ * Game.h
+ *
+ *  Created on: May 1, 2017
+ *      Author: joshua
+ */
+
+#ifndef GAME_H_
+#define GAME_H_
+#include <iostream>
+
+class Game {
+public:
+	Game(std::string directory, Reader * reader);
+	virtual ~Game();
+	void run();
+private:
+	//std::string _textToPrint;
+	bool _running;
+	int _currentChoice;
+	Reader * _reader;
+
+};
+
+#endif /* GAME_H_ */

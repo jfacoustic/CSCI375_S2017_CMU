@@ -1,0 +1,36 @@
+/*
+ * Reader.cpp
+ *
+ *  Created on: May 1, 2017
+ *      Author: joshua
+ */
+
+#include "Reader.h"
+
+Reader::Reader(std::string directory) {
+	// TODO Auto-generated constructor stub
+	_directory = directory;
+	_textToSend = "";
+}
+
+Reader::~Reader() {
+	// TODO Auto-generated destructor stub
+}
+
+void Reader::setDirectory(std::string directory) {
+	_directory = directory;
+}
+
+void Reader::read() {
+	std::ifstream fin;
+	fin.open(_directory);
+	std::string temp;
+	while(getline(fin, temp)) {
+		_textToSend += temp;
+	}
+
+}
+
+std::string Reader::getText() {
+	return _textToSend;
+}

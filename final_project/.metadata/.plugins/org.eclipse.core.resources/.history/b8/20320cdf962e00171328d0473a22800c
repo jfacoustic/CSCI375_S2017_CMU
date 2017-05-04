@@ -1,0 +1,22 @@
+/*
+ * main.cpp
+ *
+ *  Created on: May 1, 2017
+ *      Author: joshua
+ */
+#include <iostream>
+#include "Reader.h"
+
+using namespace std;
+
+int main() {
+	Reader * reader = new Reader("../test_game/");
+	reader->read();
+	cout << reader->getText();
+	int n;
+	cin >> n;
+	reader->setDirectory(n);
+	reader->read();
+	cout << reader->getText();
+	return 0;
+}

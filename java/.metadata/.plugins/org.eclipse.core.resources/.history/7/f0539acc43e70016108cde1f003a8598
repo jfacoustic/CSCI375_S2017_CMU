@@ -1,6 +1,0 @@
-package food;
-
-public class Spaghetti extends Food {
-	
-
-}

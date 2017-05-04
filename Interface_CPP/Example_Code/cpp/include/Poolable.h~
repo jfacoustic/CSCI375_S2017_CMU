@@ -1,0 +1,16 @@
+#pragma once
+
+#include <memory>
+
+namespace pools {
+  class Pool;
+  class Poolable;
+  typedef std::shared_ptr < Poolable > PoolablePtr;
+
+  class Poolable {
+  private: Pool &pool;
+  public: Poolable(Pool &pool);
+  public: virtual ~Poolable();
+  };
+}
+

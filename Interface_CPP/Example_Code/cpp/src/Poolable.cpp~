@@ -1,0 +1,9 @@
+#include "Poolable.h"
+#include "Pool.h"
+
+namespace pools {
+  Poolable::Poolable(Pool &_pool) : pool(_pool) {
+    pool.pooled.push_back(PoolablePtr(this));
+  }
+  Poolable::~Poolable() {}
+}

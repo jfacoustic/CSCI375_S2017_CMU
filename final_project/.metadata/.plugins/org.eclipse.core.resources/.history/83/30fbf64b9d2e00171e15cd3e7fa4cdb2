@@ -1,0 +1,19 @@
+/*
+ * main.cpp
+ *
+ *  Created on: May 1, 2017
+ *      Author: joshua
+ */
+#include <iostream>
+#include "Reader.h"
+#include "Game.h"
+#include "Controller.h"
+
+
+using namespace std;
+
+int main() {
+	Reader * reader = new Reader("../test_game");
+	Game * game = new Game()
+	return 0;
+}

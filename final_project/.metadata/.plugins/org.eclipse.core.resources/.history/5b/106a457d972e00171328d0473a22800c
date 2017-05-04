@@ -1,0 +1,22 @@
+/*
+ * Game.h
+ *
+ *  Created on: May 1, 2017
+ *      Author: joshua
+ */
+
+#ifndef GAME_H_
+#define GAME_H_
+
+class Game {
+public:
+	Game();
+	virtual ~Game();
+
+private:
+	//std::string _textToPrint;
+	int _currentChoice;
+
+};
+
+#endif /* GAME_H_ */

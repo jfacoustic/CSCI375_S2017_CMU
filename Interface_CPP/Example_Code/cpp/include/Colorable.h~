@@ -1,0 +1,9 @@
+#pragma once
+
+namespace colors {
+  struct Colorable {
+    virtual Color getColor() const = 0;
+    virtual void setColor(const Color &value) = 0;
+    virtual ~Colorable();
+  };
+}

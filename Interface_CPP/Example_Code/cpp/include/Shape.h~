@@ -1,0 +1,10 @@
+#pragma once
+
+namespace shapes 
+{
+  class Shape {
+  public: Shape();
+  public: virtual double getArea() const;
+  public: virtual ~Shape();
+  };
+}

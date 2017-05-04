@@ -1,0 +1,20 @@
+/*
+ * Game.cpp
+ *
+ *  Created on: May 1, 2017
+ *      Author: joshua
+ */
+
+#include "Game.h"
+
+Game::Game() {
+	// TODO Auto-generated constructor stub
+	_running = true;
+	_currentChoice = NULL;
+
+}
+
+Game::~Game() {
+	// TODO Auto-generated destructor stub
+}
+

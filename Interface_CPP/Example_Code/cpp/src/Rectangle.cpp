@@ -1,0 +1,48 @@
+#include "Rectangle.h"
+
+namespace shapes {
+  Rectangle::Rectangle(pools::Pool &pool, const double &width, 
+		       const double &height) 
+    : 
+    pools::Poolable(pool),
+    colors::Colorable(pool),
+    shapes::Shape(pool),
+      _height(height),
+      _width(width), 
+      _area(width*height),
+      _color(0,0,0,255)
+    {
+      std::cout << "Rectangle()@" << (void*) this << std::endl;
+    }
+
+  double Rectangle::getWidth() const {
+    return _width;
+  }
+
+  void Rectangle::setWidth(const double &value) {
+    if (_width != value) {
+      _width = value;
+      updateArea();
+    }
+  }
+
+  double Rectangle::getHeight() const {
+    return _height;
+  }
+
+  void Rectangle::setHeight(const double &value) {
+    if (_height != value) {
+      _height = value;
+      updateArea();
+    }
+  }
+
+  void Rectangle::updateArea() {
+    _area = _width*_height;
+  }
+
+  double Rectangle::getArea() const {
+    return _area;
+  }
+
+}

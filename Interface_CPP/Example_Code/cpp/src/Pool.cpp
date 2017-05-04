@@ -1,0 +1,10 @@
+#include "Pool.h"
+
+namespace pools {
+  Pool::~Pool() {
+    for (auto poolable : pooled) {
+      delete poolable;
+    }
+  }
+  
+}
