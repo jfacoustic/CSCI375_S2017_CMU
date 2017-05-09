@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="22" version="2.0">
+<workbench progressCount="26" version="2.0">
 <workbenchAdvisor/>
 <window height="1083" maximized="true" width="1926" x="0" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -8,18 +8,18 @@
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="258" y="26"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="286" y="36"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="186" y="26"/>
+<coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="210" y="36"/>
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="142" y="26"/>
-<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="36" y="26"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="80" y="26"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="88" y="26"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="162" y="36"/>
+<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="46" y="36"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="94" y="36"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="74" y="36"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="212" y="26"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="238" y="36"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -28,57 +28,10 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-</presentation>
-</folder>
-</info>
-<info part="org.eclipse.ui.internal.EditorStack@3713bedc" ratio="0.49953228" ratioLeft="534" ratioRight="535" relationship="2" relative="DefaultEditorWorkbook">
-<folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Game.h" partName="Game.h" path="/home/joshua/Documents/00_School/01_Spring2017/04_OOP/final_project/Text_Game_Engine/Game.h" title="Game.h" tooltip="Text_Game_Engine/Game.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Text_Game_Engine/Game.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="394" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.cpp" partName="main.cpp" path="/home/joshua/Documents/00_School/01_Spring2017/04_OOP/final_project/Text_Game_Engine/main.cpp" title="main.cpp" tooltip="Text_Game_Engine/main.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Text_Game_Engine/main.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="129" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Reader.h" partName="Reader.h" path="/home/joshua/Documents/00_School/01_Spring2017/04_OOP/final_project/Text_Game_Engine/Reader.h" title="Reader.h" tooltip="Text_Game_Engine/Reader.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Text_Game_Engine/Reader.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="392" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Controller.h" partName="Controller.h" path="/home/joshua/Documents/00_School/01_Spring2017/04_OOP/final_project/Text_Game_Engine/Controller.h" title="Controller.h" tooltip="Text_Game_Engine/Controller.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Text_Game_Engine/Controller.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="323" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="RobotController.h" partName="RobotController.h" path="/home/joshua/Documents/00_School/01_Spring2017/04_OOP/final_project/Text_Game_Engine/RobotController.h" title="RobotController.h" tooltip="Text_Game_Engine/RobotController.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Text_Game_Engine/RobotController.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3" selectionTopPixel="0"/>
-</editor>
-<editor focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Controller.cpp" partName="Controller.cpp" path="/home/joshua/Documents/00_School/01_Spring2017/04_OOP/final_project/Text_Game_Engine/Controller.cpp" title="Controller.cpp" tooltip="Text_Game_Engine/Controller.cpp" workbook="org.eclipse.ui.internal.EditorStack@3713bedc">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Text_Game_Engine/Controller.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="401" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Game.cpp" partName="Game.cpp" path="/home/joshua/Documents/00_School/01_Spring2017/04_OOP/final_project/Text_Game_Engine/Game.cpp" title="Game.cpp" tooltip="Text_Game_Engine/Game.cpp" workbook="org.eclipse.ui.internal.EditorStack@3713bedc">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Text_Game_Engine/Game.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="549" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Reader.cpp" partName="Reader.cpp" path="/home/joshua/Documents/00_School/01_Spring2017/04_OOP/final_project/Text_Game_Engine/Reader.cpp" title="Reader.cpp" tooltip="Text_Game_Engine/Reader.cpp" workbook="org.eclipse.ui.internal.EditorStack@3713bedc">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Text_Game_Engine/Reader.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="306" selectionTopPixel="0"/>
-</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
@@ -86,7 +39,7 @@
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
 <category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings (1 item)"/>
+<category IMemento.internal.id="Warnings (2 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="1047" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -119,7 +72,7 @@
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.eclipse.cdt.ui.CPerspective">
+<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.cdt.ui.CPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -267,7 +220,7 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.12027674" ratioLeft="226" ratioRight="1653" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottom" ratio="0.75" ratioLeft="720" ratioRight="240" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
@@ -292,177 +245,15 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Text_Game_Engine/Game.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Text_Game_Engine/Game.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Text_Game_Engine/main.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Text_Game_Engine/Reader.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Text_Game_Engine/Controller.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Text_Game_Engine/main.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Text_Game_Engine/Game.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Text_Game_Engine/Game.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Text_Game_Engine/Reader.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Text_Game_Engine/Controller.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Text_Game_Engine/Controller.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Text_Game_Engine/RobotController.h"/>
-</editors>
-<item historyLabel="main.cpp" index="2">
-<position info="not_deleted" x="3" y="0"/>
-</item>
-<item historyLabel="Game.cpp" index="0">
-<position info="not_deleted" x="586" y="0"/>
-</item>
-<item historyLabel="Game.cpp" index="0">
-<position info="not_deleted" x="586" y="0"/>
-</item>
-<item historyLabel="Game.cpp" index="0">
-<position info="not_deleted" x="545" y="0"/>
-</item>
-<item historyLabel="main.cpp" index="2">
-<position info="not_deleted" x="156" y="0"/>
-</item>
-<item historyLabel="main.cpp" index="2">
-<position info="not_deleted" x="129" y="0"/>
-</item>
-<item historyLabel="main.cpp" index="2">
-<position info="not_deleted" x="285" y="0"/>
-</item>
-<item historyLabel="Game.cpp" index="0">
-<position info="not_deleted" x="104" y="0"/>
-</item>
-<item historyLabel="Game.h" index="1">
-<position info="not_deleted" x="196" y="0"/>
-</item>
-<item historyLabel="Controller.cpp" index="4">
-<position info="not_deleted" x="263" y="0"/>
-</item>
-<item historyLabel="main.cpp" index="2">
-<position info="not_deleted" x="285" y="0"/>
-</item>
-<item historyLabel="Game.cpp" index="0">
-<position info="not_deleted" x="104" y="0"/>
-</item>
-<item historyLabel="Game.h" index="1">
-<position info="not_deleted" x="196" y="0"/>
-</item>
-<item historyLabel="Game.h" index="1">
-<position info="not_deleted" x="142" y="0"/>
-</item>
-<item historyLabel="Game.h" index="1">
-<position info="not_deleted" x="168" y="0"/>
-</item>
-<item historyLabel="Reader.cpp" index="3">
-<position info="not_deleted" x="669" y="0"/>
-</item>
-<item historyLabel="Game.h" index="1">
-<position info="not_deleted" x="168" y="0"/>
-</item>
-<item historyLabel="Reader.cpp" index="3">
-<position info="not_deleted" x="669" y="0"/>
-</item>
-<item historyLabel="main.cpp" index="5">
-<position info="not_deleted" x="285" y="0"/>
-</item>
-<item historyLabel="Game.h" index="6">
-<position info="not_deleted" x="168" y="0"/>
-</item>
-<item historyLabel="Game.h" index="6">
-<position info="not_deleted" x="249" y="0"/>
-</item>
-<item historyLabel="Game.h" index="6">
-<position info="not_deleted" x="237" y="0"/>
-</item>
-<item historyLabel="Game.cpp" index="7">
-<position info="not_deleted" x="271" y="0"/>
-</item>
-<item historyLabel="Game.h" index="6">
-<position info="not_deleted" x="249" y="0"/>
-</item>
-<item historyLabel="Game.h" index="6">
-<position info="not_deleted" x="367" y="0"/>
-</item>
-<item historyLabel="Game.cpp" index="7">
-<position info="not_deleted" x="549" y="0"/>
-</item>
-<item historyLabel="Game.cpp" index="7">
-<position/>
-</item>
-<item historyLabel="Game.cpp" index="7">
-<position/>
-</item>
-<item historyLabel="Game.cpp" index="7">
-<position/>
-</item>
-<item historyLabel="Game.cpp" index="7">
-<position/>
-</item>
-<item historyLabel="Game.cpp" index="7">
-<position/>
-</item>
-<item historyLabel="Game.cpp" index="7">
-<position/>
-</item>
-<item historyLabel="Game.cpp" index="7">
-<position info="not_deleted" x="92" y="0"/>
-</item>
-<item historyLabel="Game.h" index="6">
-<position info="not_deleted" x="237" y="0"/>
-</item>
-<item historyLabel="Game.cpp" index="7">
-<position info="not_deleted" x="271" y="0"/>
-</item>
-<item historyLabel="Game.h" index="6">
-<position info="not_deleted" x="249" y="0"/>
-</item>
-<item historyLabel="Game.cpp" index="7">
-<position info="not_deleted" x="392" y="0"/>
-</item>
-<item historyLabel="Game.h" index="6">
-<position info="not_deleted" x="236" y="0"/>
-</item>
-<item historyLabel="Game.cpp" index="7">
-<position info="not_deleted" x="549" y="0"/>
-</item>
-<item historyLabel="Reader.h" index="8">
-<position info="not_deleted" x="3" y="0"/>
-</item>
-<item historyLabel="Reader.cpp" index="3">
-<position info="not_deleted" x="306" y="0"/>
-</item>
-<item historyLabel="Controller.h" index="9">
-<position info="not_deleted" x="235" y="0"/>
-</item>
-<item historyLabel="Controller.cpp" index="10">
-<position info="not_deleted" x="263" y="0"/>
-</item>
-<item historyLabel="Controller.h" index="9">
-<position info="not_deleted" x="169" y="0"/>
-</item>
-<item historyLabel="Controller.cpp" index="10">
-<position info="not_deleted" x="401" y="0"/>
-</item>
-<item historyLabel="Controller.h" index="9">
-<position info="not_deleted" x="323" y="0"/>
-</item>
-<item historyLabel="Game.h" index="6">
-<position info="not_deleted" x="394" y="0"/>
-</item>
-<item historyLabel="Controller.h" index="9">
-<position info="not_deleted" x="323" y="0"/>
-</item>
-<item historyLabel="RobotController.h" index="11">
-<position info="not_deleted" x="3" y="0"/>
-</item>
-<item active="true" historyLabel="Reader.h" index="8">
-<position info="not_deleted" x="3" y="0"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+</trimArea>
 <trimArea IMemento.internal.id="131072">
 <trimItem IMemento.internal.id="topRight"/>
 </trimArea>
@@ -473,10 +264,23 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.cpp" tooltip="Text_Game_Engine_with_gtkmm/main.cpp">
+<persistable path="/Text_Game_Engine_with_gtkmm/main.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="GameWindow.cpp" tooltip="Text_Game_Engine_with_gtkmm/GameWindow.cpp">
+<persistable path="/Text_Game_Engine_with_gtkmm/GameWindow.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="GameWindow.h" tooltip="Text_Game_Engine_with_gtkmm/GameWindow.h">
+<persistable path="/Text_Game_Engine_with_gtkmm/GameWindow.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Game.h" tooltip="Text_Game_Engine_with_gtkmm/Game.h">
+<persistable path="/Text_Game_Engine_with_gtkmm/Game.h"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="RobotController.h" tooltip="Text_Game_Engine/RobotController.h">
 <persistable path="/Text_Game_Engine/RobotController.h"/>
 </file>
